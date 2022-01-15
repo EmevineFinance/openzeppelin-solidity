@@ -1,7 +1,7 @@
 contract TimeLock {
 
 	address owner;
-	uint lockTime = 1 day;
+	uint lockTime = 1 years;
 	uint startTime;
 
 	modifier onlyBy(address _account){
